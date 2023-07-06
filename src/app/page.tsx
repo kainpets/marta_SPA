@@ -4,6 +4,9 @@ import martaKciuki from "/public/martazkciukami.jpg"
 import martalabedz from "/public/martalabedz.jpg"
 import martaradzi from "/public/martaradzi.jpg"
 import martanogadogory from "/public/martanogadogory.jpg"
+import opinia1 from "/public/opinia1.jpg"
+import opinia2 from "/public/opinia2.jpg"
+import opinia3 from "/public/opinia3.jpg"
 
 export default function Home() {
   return (
@@ -99,7 +102,7 @@ export default function Home() {
       </div>
       {/* portfolio */}
       <div className="pt-8 text-center px-4">
-        <h2 className='text-xl'>MOJE PORTFOLIO</h2>
+        {/* <h2 className='text-xl'>MOJE PORTFOLIO</h2> */}
         <h3 >Zapraszam do zapoznania się z występami moich pięknych par młodych, z których jestem <strong className="font-medium">BARDZO</strong> dumna! Więcej na moim profilu na YouTube.</h3>
         <div className="flex flex-col gap-4 pt-4 lg:flex-row">
           <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/i9EtZgCjfPk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -113,6 +116,69 @@ export default function Home() {
           </a>
         </div>
       </div>
+      {/* opinie */}
+      <div className="flex  gap-y-[130px] gap-4 pt-40 px-4 flex-col md:flex-row">
+      <div className="relative bg-white rounded shadow p-2 flex flex-col py-8 items-center ">
+            <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
+              objectFit: "cover",
+              height: "125px",
+              width: "125px",
+              borderRadius: "50%",
+              borderColor: "#D1E3DC",
+              borderWidth: "10px",
+              position: "absolute",
+              top: "-100px"
+            }} />
+            <p className="text-justify">
+              Długo myślałam co napisać, ponieważ nasz pierwszy taniec który Marta dla nas stworzyła był wyjątkowy, ponadto zrobił dużą furorę wśród gości! Goście mówili: „tak pięknego tańca jeszcze nie widzieliśmy”,  „trudno będzie go pobić innym tańcem”. Dodatkowo czas z Martą jest cudowny. Dziewczyna pełna energii, chcąca sprostać najcięższym wyzwaniom! Tak jak nasze, gdy mając już cały przygotowany taniec postanowiliśmy zmienić piosenkę!!! Co na to Marta?! Od razu podłapała temat i od razu zaczęła działać!!! I cała choreografia przerosła nasze oczekiwania!!! Marta jest bardzo pozytywną osobą i nie ważne jak byliśmy zmęczeni na zajęcia z Martą szliśmy chętnie, a wychodziliśmy z ogromnym uśmiechem!!! Jeśli ktoś się zastanawia jeszcze nad wyborem osoby, która poprowadzi Wasz pierwszy taniec, to naprawdę polecam Martę, która robi to z pasją!!!
+            </p>
+            <h3 className="text-center text-xl">KAROLINA I KRIS</h3>
+          </div>
+          <div className="relative bg-white rounded shadow p-2  flex flex-col py-8 items-center ">
+            <Image src={opinia2} placeholder="blur" alt="Para weselna" style={{
+              objectFit: "cover",
+              height: "125px",
+              width: "125px",
+              borderRadius: "50%",
+              borderColor: "#D1E3DC",
+              borderWidth: "10px",
+              position: "absolute",
+              top: "-100px"
+            }} />
+            <p >
+              Marta jest najlepszą instruktorką tańca, a przy jej pomocy pierwszy taniec przestaje być taki straszny! Bardzo się tym tańcem stresowaliśmy, nigdy wcześniej nie tańczyliśmy w parze, ale Marta zdziałała cuda. Dzięki jej ogromnym umiejętnościom, wyobraźni i pozytywnej energii, którą nas zaraziła, stworzyła w kilka lekcji układ, który był &quot;nasz&quot; i świetnie się bawiliśmy tańcząc go na weselu.
+              Polecamy z całego serca!
+            </p>
+            <h3 className="text-center text-xl">OLIWIA I ARTUR</h3>
+          </div>
+          <div className="relative bg-white rounded shadow p-2  flex flex-col py-8 items-center ">
+            <Image src={opinia3} placeholder="blur" alt="Para weselna" style={{
+              objectFit: "cover",
+              height: "125px",
+              width: "125px",
+              borderRadius: "50%",
+              borderColor: "#D1E3DC",
+              borderWidth: "10px",
+              position: "absolute",
+              top: "-100px"
+            }} />
+            <p className="text-justify">
+              Dla tych, którzy nie wiedzą, to Marta to człowiek-petarda, która nawet z parkietowych drewien zrobi tancerzy!
+              Każde spotkanie to była czysta przyjemność, dużo humorku i dużo ćwiczeń, profesjonalna choreografia, cierpliwe znoszenie mojego marudzenia i tłumaczenie co jesteśmy w stanie zrobić ładnie, a co jest zbyt zaawansowane jak na kilka lekcji - złota kobieta!
+              Polecanko wszystkim, którzy chcą się nauczyć tańca bez spiny, za to z uśmiechem na ustach - u nas każda próba to była kupa śmiechu i z takim samym szerokim uśmiechem zatańczyliśmy w dniu ślubu
+              10000/10, nie ma lepszej instruktorki - nie ma tu o czym dyskutować!
+            </p>
+            <h3 className="text-center text-xl">KLAUDIA I MICHAŁ</h3>
+          </div>
+        </div>
+        <div className="mx-auto text-center pt-8">
+          <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">
+            <button className="p-4 font-bold text-xl bg-green-400 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
+            </button>
+          </a>
+        </div>
+      {/* kontakt */}
+
 
     </main>
   )
