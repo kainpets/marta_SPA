@@ -8,6 +8,7 @@ import opinia1 from "/public/opinia1.jpg"
 import opinia2 from "/public/opinia2.jpg"
 import opinia3 from "/public/opinia3.jpg"
 import martaKontakt from "/public/martakontakt.jpg"
+import logo from "/public/whiteTransparentLogoHomePage.png"
 import { FacebookIcon, Instagram, Youtube, Mail, Phone } from 'lucide-react'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <main className="min-h-screen overflow-y-hidden ">
       {/* landing page */}
       <div className="relative h-screen w-screen pt-16 px-4">
+        <Image src={logo} alt='logo' className='p-0 absolute top-0  w-[200px] rounded-[50%] border-solid border-white'/>
         <Image
           src={juliaMilosz}
           alt='Tańcząca, zakochana para weselna'
@@ -23,7 +25,7 @@ export default function Home() {
           placeholder='blur'
           priority={true}
           className='absolute z-[-1] object-cover h-full w-full top-0' />
-        <div className="flex flex-col max-w-sm text-white">
+        <div className="flex flex-col max-w-sm text-white pt-32">
           <h1 className="text-6xl leading-normal font-black">Pierwszy Taniec Poznań</h1>
           <h5 className="text-3xl leading-snug">ABY PIERWSZY TANIEC <br></br> BYŁ DLA WAS PRZYGODĄ</h5>
         </div>
