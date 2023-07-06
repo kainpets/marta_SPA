@@ -8,7 +8,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: 'Pierwszy Taniec Marta Klisowska',
-  description: 'Strona MArty Klisowskiej przygotowującej pary do pierwszego tańca na weselach',
+  description: 'Strona Marty Klisowskiej przygotowującej pary do pierwszego tańca na weselach',
 }
 
 export default function RootLayout({
