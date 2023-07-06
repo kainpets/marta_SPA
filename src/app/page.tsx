@@ -97,6 +97,22 @@ export default function Home() {
       <div className="marginx-auto w-full text-center pb-2">
         <h3 className="text-xl">Chcesz dowiedzieć się więcej? <a href='tel:793 792 883' className="font-bold">Zadzwoń!</a></h3>
       </div>
+      {/* portfolio */}
+      <div className="pt-8 text-center px-4">
+        <h2 className='text-xl'>MOJE PORTFOLIO</h2>
+        <h3 >Zapraszam do zapoznania się z występami moich pięknych par młodych, z których jestem <strong className="font-medium">BARDZO</strong> dumna! Więcej na moim profilu na YouTube.</h3>
+        <div className="flex flex-col gap-4 pt-4 lg:flex-row">
+          <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/i9EtZgCjfPk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/mc-7tzKjJfE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/LqvE-7Xv5fE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </div>
+        <div className="mx-auto text-center pt-8">
+          <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">
+            <button className="p-4 font-bold text-xl bg-green-400 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
+            </button>
+          </a>
+        </div>
+      </div>
 
     </main>
   )
