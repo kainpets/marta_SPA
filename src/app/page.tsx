@@ -7,6 +7,8 @@ import martanogadogory from "/public/martanogadogory.jpg"
 import opinia1 from "/public/opinia1.jpg"
 import opinia2 from "/public/opinia2.jpg"
 import opinia3 from "/public/opinia3.jpg"
+import martaKontakt from "/public/martakontakt.jpg"
+import { FacebookIcon, Instagram, Youtube, Mail, Phone } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -178,7 +180,44 @@ export default function Home() {
           </a>
         </div>
       {/* kontakt */}
-
+      <div className="flex gap-16 mx-auto mt-16 pb-16 px-4" >
+          <div>
+          <div >
+            <Image
+              src={martaKontakt}
+              placeholder="blur"
+              sizes='100vw'
+              alt="Uśmiechnięta Marta czeka na kontakt" 
+              className='object-scale-down sm:max-w-fit' />
+          </div>
+          <div className='pt-4'>
+            <h2 className="text-3xl text-center">KONTAKT</h2>
+            <ul className="mt-4 flex flex-col gap-6 md:text-xl">
+              <li className="flex flex-row gap-2">
+                <FacebookIcon color="#030099" />
+                <a href="https://www.facebook.com/martaklisowskapierwszytaniec" target="_blank">@martaklisowskapierwszytaniec</a>
+              </li>
+              <li className="flex flex-row gap-2">
+                <Instagram color="#d45125" />
+                <a href="https://www.instagram.com/pierwszytaniecpoznan/" target="_blank">@pierwszytaniecpoznan</a>
+              </li>
+              <li className="flex flex-row gap-2">
+                <Youtube color="#c70d00" />
+                <a href="https://www.youtube.com/@martaklisowska2017" target="_blank">@martaklisowska2017</a>
+              </li>
+              <li className="flex flex-row gap-2">
+                <Mail />
+                <a href="mailto:klisowska.marta@gmail.com?subject=Pytanie&body=Interesują mnie zajęcia" target="_blank">@klisowska.marta@gmail.com</a>
+              </li>
+              <li className="flex flex-row gap-2">
+                <Phone />
+                <a href="tel:793792883">+48 793 792 883</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+          
+        </div>
 
     </main>
   )
