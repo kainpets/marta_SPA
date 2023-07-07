@@ -182,19 +182,19 @@ export default function Home() {
           </a>
         </div>
       {/* kontakt */}
-      <div className="flex gap-16 mx-auto mt-16 pb-16 px-4" >
-          <div>
+      <div className="sm:flex gap-16 mt-16 pb-16 sm:px-4" >
+          <div className='flex flex-col sm:flex-row-reverse'>
           <div >
             <Image
               src={martaKontakt}
-              placeholder="blur"
+              placeholder="blur" 
               sizes='100vw'
               alt="Uśmiechnięta Marta czeka na kontakt" 
-              className='object-scale-down sm:max-w-fit' />
+              className='z-[-1] object-cover h-full w-full sm:block sm:object-scale-down shadow-lg' />
           </div>
-          <div className='pt-4'>
+          <div className='pt-8 px-4 text-xl'>
             <h2 className="text-3xl text-center">KONTAKT</h2>
-            <ul className="mt-4 flex flex-col gap-6 md:text-xl">
+            <ul className="font-medium mt-4 flex flex-col gap-6 md:text-xl">
               <li className="flex flex-row gap-2">
                 <FacebookIcon color="#030099" />
                 <a href="https://www.facebook.com/martaklisowskapierwszytaniec" target="_blank">@martaklisowskapierwszytaniec</a>
