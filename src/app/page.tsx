@@ -16,7 +16,7 @@ export default function Home() {
     <main className="min-h-screen overflow-y-hidden ">
       {/* landing page */}
       <div className="relative h-screen w-screen pt-16 px-4">
-        <Image src={logo} alt='logo' className='p-0 absolute top-0  w-[200px] rounded-[50%] border-solid border-white'/>
+        <Image src={logo} alt='logo' className='absolute top-0  w-[200px]'/>
         <Image
           src={juliaMilosz}
           alt='Tańcząca, zakochana para weselna'
@@ -26,7 +26,7 @@ export default function Home() {
           priority={true}
           className='absolute z-[-1] object-cover h-full w-full top-0' />
         <div className="flex flex-col max-w-sm text-white pt-32">
-          <h1 className="text-6xl leading-normal font-black">Pierwszy Taniec Poznań</h1>
+          <h1 className="text-6xl leading-tight font-black">Pierwszy Taniec Poznań</h1>
           <h5 className="text-3xl leading-snug">ABY PIERWSZY TANIEC <br></br> BYŁ DLA WAS PRZYGODĄ</h5>
         </div>
       </div>
@@ -61,7 +61,7 @@ export default function Home() {
       <div style={{
         display: "grid",
         gridGap: "16px",
-        gridTemplateColumns: "repeat(auto-fit, minmax(300px, auto))",
+        gridTemplateColumns: "repeat(auto-fit, minmax(250px, auto))",
         paddingTop: "4rem",
         alignItems: "baseline",
         paddingRight: "1rem",
