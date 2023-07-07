@@ -16,7 +16,7 @@ export default function Home() {
     <main className="min-h-screen overflow-y-hidden ">
       {/* landing page */}
       <div className="relative h-screen w-screen pt-16 px-4">
-        <Image src={logo} alt='logo' className='absolute top-0  w-[200px]'/>
+        <Image src={logo} alt='logo' className='absolute top-0  w-[200px]' />
         <Image
           src={juliaMilosz}
           alt='Tańcząca, zakochana para weselna'
@@ -26,17 +26,17 @@ export default function Home() {
           priority={true}
           className='absolute z-[-1] object-cover h-full w-full top-0' />
         <div className="flex flex-col max-w-sm text-white pt-32">
-          <h1 className="text-6xl leading-tight font-black">Pierwszy Taniec Poznań</h1>
+          <h1 className="text-7xl leading-tight font-black">Pierwszy Taniec Poznań</h1>
           <h5 className="text-3xl leading-snug">ABY PIERWSZY TANIEC <br></br> BYŁ DLA WAS PRZYGODĄ</h5>
         </div>
       </div>
 
       {/* o mnie */}
       <div className='sm:flex pt-8 px-4'>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 leading-relaxed">
           <h2 className="text-2xl">Cześć!</h2>
           <h2 className="text-2xl">Mam na imię Marta i jestem <br />instruktorką tańca.</h2>
-          <p>Uczę tańca i bardzo to kocham.</p>
+          <p className='pt-4'>Uczę tańca i bardzo to kocham.</p>
           <br />
           <p>
             Tańczę od 7 roku życia. Zaczynałam w ukochanym, rodzinnym Gorzowie Wielkopolskim, gdzie przez 12 lat rozwijałam taniec współczesny pod okiem Pana Adama Węsławskiego, który na zawsze będzie moim najważniejszym nauczycielem tańca.
@@ -75,7 +75,7 @@ export default function Home() {
           }} />
           <div className="pt-4">
             <h2 className="text-center text-xl pb-1">WARSZTATY TANECZNE</h2>
-            <p className="text-justify">Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania. </p>
+            <p className="">Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania. </p>
           </div>
         </div>
         <div style={{ position: "relative", height: "625px" }}>
@@ -86,7 +86,7 @@ export default function Home() {
           }} />
           <div className="pt-4">
             <h2 className="text-center text-xl pb-1">PIERWSZY TANIEC</h2>
-            <p className="text-justify">Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii. </p>
+            <p className="">Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii. </p>
           </div>
         </div>
         <div style={{ position: "relative", height: "625px" }}>
@@ -97,7 +97,7 @@ export default function Home() {
           }} />
           <div className="pt-4">
             <h2 className="text-center text-xl pb-1">TANIEC DLA KOBIET</h2>
-            <p className="text-justify">Zajęcia pełne kobiecości, na których każda z Was może poczuć się jak gwiazda Broadway&apos;u. Prowadzę zajęcia grupowe i indywidualne. Realizuję też tańce na wieczorach panieńskich.</p>
+            <p className="">Zajęcia pełne kobiecości, na których każda z Was może poczuć się jak gwiazda Broadway&apos;u. Prowadzę zajęcia grupowe i indywidualne. Realizuję też tańce na wieczorach panieńskich.</p>
           </div>
         </div>
       </div>
@@ -121,76 +121,76 @@ export default function Home() {
         </div>
       </div>
       {/* opinie */}
-      <div className="flex  gap-y-[130px] gap-4 pt-40 px-4 flex-col md:flex-row">
-      <div className="relative bg-white rounded shadow p-2 flex flex-col py-8 items-center ">
-            <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
-              objectFit: "cover",
-              height: "125px",
-              width: "125px",
-              borderRadius: "50%",
-              borderColor: "#D1E3DC",
-              borderWidth: "10px",
-              position: "absolute",
-              top: "-100px"
-            }} />
-            <p className="text-justify">
-              Długo myślałam co napisać, ponieważ nasz pierwszy taniec który Marta dla nas stworzyła był wyjątkowy, ponadto zrobił dużą furorę wśród gości! Goście mówili: „tak pięknego tańca jeszcze nie widzieliśmy”,  „trudno będzie go pobić innym tańcem”. Dodatkowo czas z Martą jest cudowny. Dziewczyna pełna energii, chcąca sprostać najcięższym wyzwaniom! Tak jak nasze, gdy mając już cały przygotowany taniec postanowiliśmy zmienić piosenkę!!! Co na to Marta?! Od razu podłapała temat i od razu zaczęła działać!!! I cała choreografia przerosła nasze oczekiwania!!! Marta jest bardzo pozytywną osobą i nie ważne jak byliśmy zmęczeni na zajęcia z Martą szliśmy chętnie, a wychodziliśmy z ogromnym uśmiechem!!! Jeśli ktoś się zastanawia jeszcze nad wyborem osoby, która poprowadzi Wasz pierwszy taniec, to naprawdę polecam Martę, która robi to z pasją!!!
-            </p>
-            <h3 className="text-center text-xl">KAROLINA I KRIS</h3>
-          </div>
-          <div className="relative bg-white rounded shadow p-2  flex flex-col py-8 items-center ">
-            <Image src={opinia2} placeholder="blur" alt="Para weselna" style={{
-              objectFit: "cover",
-              height: "125px",
-              width: "125px",
-              borderRadius: "50%",
-              borderColor: "#D1E3DC",
-              borderWidth: "10px",
-              position: "absolute",
-              top: "-100px"
-            }} />
-            <p >
-              Marta jest najlepszą instruktorką tańca, a przy jej pomocy pierwszy taniec przestaje być taki straszny! Bardzo się tym tańcem stresowaliśmy, nigdy wcześniej nie tańczyliśmy w parze, ale Marta zdziałała cuda. Dzięki jej ogromnym umiejętnościom, wyobraźni i pozytywnej energii, którą nas zaraziła, stworzyła w kilka lekcji układ, który był &quot;nasz&quot; i świetnie się bawiliśmy tańcząc go na weselu.
-              Polecamy z całego serca!
-            </p>
-            <h3 className="text-center text-xl">OLIWIA I ARTUR</h3>
-          </div>
-          <div className="relative bg-white rounded shadow p-2  flex flex-col py-8 items-center ">
-            <Image src={opinia3} placeholder="blur" alt="Para weselna" style={{
-              objectFit: "cover",
-              height: "125px",
-              width: "125px",
-              borderRadius: "50%",
-              borderColor: "#D1E3DC",
-              borderWidth: "10px",
-              position: "absolute",
-              top: "-100px"
-            }} />
-            <p className="text-justify">
-              Dla tych, którzy nie wiedzą, to Marta to człowiek-petarda, która nawet z parkietowych drewien zrobi tancerzy!
-              Każde spotkanie to była czysta przyjemność, dużo humorku i dużo ćwiczeń, profesjonalna choreografia, cierpliwe znoszenie mojego marudzenia i tłumaczenie co jesteśmy w stanie zrobić ładnie, a co jest zbyt zaawansowane jak na kilka lekcji - złota kobieta!
-              Polecanko wszystkim, którzy chcą się nauczyć tańca bez spiny, za to z uśmiechem na ustach - u nas każda próba to była kupa śmiechu i z takim samym szerokim uśmiechem zatańczyliśmy w dniu ślubu
-              10000/10, nie ma lepszej instruktorki - nie ma tu o czym dyskutować!
-            </p>
-            <h3 className="text-center text-xl">KLAUDIA I MICHAŁ</h3>
-          </div>
+      <div className="flex gap-y-[130px] gap-4 pt-40 px-4 flex-col md:flex-row items-stretch justify-between">
+        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col  items-center ">
+          <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
+            objectFit: "cover",
+            height: "125px",
+            width: "125px",
+            borderRadius: "50%",
+            borderColor: "#D1E3DC",
+            borderWidth: "10px",
+            position: "absolute",
+            top: "-100px"
+          }} />
+          <p className="">
+            Długo myślałam co napisać, ponieważ nasz pierwszy taniec który Marta dla nas stworzyła był wyjątkowy, ponadto zrobił dużą furorę wśród gości! Goście mówili: „tak pięknego tańca jeszcze nie widzieliśmy”,  „trudno będzie go pobić innym tańcem”. Dodatkowo czas z Martą jest cudowny. Dziewczyna pełna energii, chcąca sprostać najcięższym wyzwaniom! Tak jak nasze, gdy mając już cały przygotowany taniec postanowiliśmy zmienić piosenkę!!! Co na to Marta?! Od razu podłapała temat i od razu zaczęła działać!!! I cała choreografia przerosła nasze oczekiwania!!! Marta jest bardzo pozytywną osobą i nie ważne jak byliśmy zmęczeni na zajęcia z Martą szliśmy chętnie, a wychodziliśmy z ogromnym uśmiechem!!! Jeśli ktoś się zastanawia jeszcze nad wyborem osoby, która poprowadzi Wasz pierwszy taniec, to naprawdę polecam Martę, która robi to z pasją!!!
+          </p>
+          <h3 className="text-center text-xl">KAROLINA I KRIS</h3>
         </div>
-        <div className="mx-auto text-center pt-8">
-          <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">
-            <button className="p-4 font-bold text-xl bg-green-400 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
-            </button>
-          </a>
+        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col  items-center ">
+          <Image src={opinia2} placeholder="blur" alt="Para weselna" style={{
+            objectFit: "cover",
+            height: "125px",
+            width: "125px",
+            borderRadius: "50%",
+            borderColor: "#D1E3DC",
+            borderWidth: "10px",
+            position: "absolute",
+            top: "-100px"
+          }} />
+          <p>
+            Marta jest najlepszą instruktorką tańca, a przy jej pomocy pierwszy taniec przestaje być taki straszny! Bardzo się tym tańcem stresowaliśmy, nigdy wcześniej nie tańczyliśmy w parze, ale Marta zdziałała cuda. Dzięki jej ogromnym umiejętnościom, wyobraźni i pozytywnej energii, którą nas zaraziła, stworzyła w kilka lekcji układ, który był &quot;nasz&quot; i świetnie się bawiliśmy tańcząc go na weselu.
+            Polecamy z całego serca!
+          </p>
+          <h3 className="text-center text-xl">OLIWIA I ARTUR</h3>
         </div>
+        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center ">
+          <Image src={opinia3} placeholder="blur" alt="Para weselna" style={{
+            objectFit: "cover",
+            height: "125px",
+            width: "125px",
+            borderRadius: "50%",
+            borderColor: "#D1E3DC",
+            borderWidth: "10px",
+            position: "absolute",
+            top: "-100px"
+          }} />
+          <p className="">
+            Dla tych, którzy nie wiedzą, to Marta to człowiek-petarda, która nawet z parkietowych drewien zrobi tancerzy!
+            Każde spotkanie to była czysta przyjemność, dużo humorku i dużo ćwiczeń, profesjonalna choreografia, cierpliwe znoszenie mojego marudzenia i tłumaczenie co jesteśmy w stanie zrobić ładnie, a co jest zbyt zaawansowane jak na kilka lekcji - złota kobieta!
+            Polecanko wszystkim, którzy chcą się nauczyć tańca bez spiny, za to z uśmiechem na ustach - u nas każda próba to była kupa śmiechu i z takim samym szerokim uśmiechem zatańczyliśmy w dniu ślubu
+            10000/10, nie ma lepszej instruktorki - nie ma tu o czym dyskutować!
+          </p>
+          <h3 className="text-center text-xl pt-4">KLAUDIA I MICHAŁ</h3>
+        </div>
+      </div>
+      <div className="mx-auto text-center pt-8">
+        <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">
+          <button className="p-4 font-bold text-xl bg-green-400 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
+          </button>
+        </a>
+      </div>
       {/* kontakt */}
       <div className="sm:flex gap-16 mt-16 pb-16 sm:px-4" >
-          <div className='flex flex-col sm:flex-row-reverse'>
+        <div className='flex flex-col sm:flex-row-reverse'>
           <div >
             <Image
               src={martaKontakt}
-              placeholder="blur" 
+              placeholder="blur"
               sizes='100vw'
-              alt="Uśmiechnięta Marta czeka na kontakt" 
-              className='z-[-1] object-cover h-full w-full sm:block sm:object-scale-down shadow-lg' />
+              alt="Uśmiechnięta Marta czeka na kontakt"
+              className='px-4 sm:block sm:object-scale-down shadow-lg' />
           </div>
           <div className='pt-8 px-4 text-xl'>
             <h2 className="text-3xl text-center">KONTAKT</h2>
@@ -216,10 +216,10 @@ export default function Home() {
                 <a href="tel:793792883">+48 793 792 883</a>
               </li>
             </ul>
-            </div>
           </div>
-          
         </div>
+
+      </div>
 
     </main>
   )
