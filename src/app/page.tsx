@@ -16,7 +16,7 @@ export default function Home() {
     <main className="min-h-screen overflow-y-hidden ">
       {/* landing page */}
       <div className="relative h-screen w-screen pt-16 px-4">
-        <Image src={logo} alt='logo' className='absolute top-0  w-[200px]' />
+        <Image src={logo} alt='logo' className='absolute top-0  w-[200px] xl:ml-32' />
         <Image
           src={juliaMilosz}
           alt='Tańcząca, zakochana para weselna'
@@ -25,15 +25,18 @@ export default function Home() {
           placeholder='blur'
           priority={true}
           className='absolute z-[-1] object-cover h-full w-full top-0' />
-        <div className="flex flex-col max-w-sm text-white pt-32">
+        <div className="pl-4 flex flex-col max-w-sm text-white pt-32 xl:pl-32">
           <h1 className="text-7xl leading-tight font-black">Pierwszy Taniec Poznań</h1>
-          <h5 className="text-3xl leading-snug">ABY PIERWSZY TANIEC <br></br> BYŁ DLA WAS PRZYGODĄ</h5>
+          <h5 className="text-3xl leading-snug">ABY&nbsp;PIERWSZY&nbsp;TANIEC</h5>
+          <h5 className="text-3xl leading-snug">BYŁ&nbsp;DLA&nbsp;WAS&nbsp;PRZYGODĄ</h5>
         </div>
       </div>
 
       {/* o mnie */}
-      <div className='sm:flex pt-8 px-4'>
-        <div className="flex flex-col gap-1 leading-relaxed">
+      <div className='pt-8 px-4 flex flex-col-reverse sm:flex-row xl:max-w-[70vw] xl:mx-auto'>
+      <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-w-[40vw] sm:max-h-[70vh]' />
+        <div className="flex flex-col gap-1 leading-relaxed sm:pl-4 xl:max-w-[50%] xl:pl-0
+        ">
           <h2 className="text-2xl">Cześć!</h2>
           <h2 className="text-2xl">Mam na imię Marta i jestem <br />instruktorką tańca.</h2>
           <p className='pt-4'>Uczę tańca i bardzo to kocham.</p>
@@ -54,7 +57,6 @@ export default function Home() {
           <p>
             Przygotowuję około 25 par rocznie do pierwszego tańca. Mam ogromne szczęście trafiać na wspaniałych ludzi! </p>
         </div>
-        <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-w-fit' />
       </div>
 
       {/* usługi */}
@@ -104,6 +106,7 @@ export default function Home() {
       <div className="marginx-auto w-full text-center pb-2">
         <h3 className="text-xl">Chcesz dowiedzieć się więcej? <a href='tel:793 792 883' className="font-bold">Zadzwoń!</a></h3>
       </div>
+
       {/* portfolio */}
       <div className="pt-8 text-center px-4">
         {/* <h2 className='text-xl'>MOJE PORTFOLIO</h2> */}
@@ -120,6 +123,7 @@ export default function Home() {
           </a>
         </div>
       </div>
+
       {/* opinie */}
       <div className="flex gap-y-[130px] gap-4 pt-40 px-4 flex-col md:flex-row items-stretch justify-between">
         <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col  items-center ">
