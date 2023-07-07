@@ -27,8 +27,7 @@ export default function Home() {
           className='absolute z-[-1] object-cover h-full w-full top-0' />
         <div className="pl-4 flex flex-col max-w-sm text-white pt-32 xl:pl-32">
           <h1 className="text-7xl leading-tight font-black">Pierwszy Taniec Poznań</h1>
-          <h5 className="text-3xl leading-snug">ABY&nbsp;PIERWSZY&nbsp;TANIEC</h5>
-          <h5 className="text-3xl leading-snug">BYŁ&nbsp;DLA&nbsp;WAS&nbsp;PRZYGODĄ</h5>
+          <h5 className="text-3xl leading-snug">ABY&nbsp;PIERWSZY&nbsp;TANIEC BYŁ&nbsp;DLA&nbsp;WAS&nbsp;PRZYGODĄ</h5>
         </div>
       </div>
 
@@ -125,7 +124,7 @@ export default function Home() {
       </div>
 
       {/* opinie */}
-      <div className="flex gap-y-[130px] gap-4 pt-40 px-4 flex-col md:flex-row items-stretch justify-between">
+      <div className="flex gap-y-[130px] gap-4 pt-40 px-4 flex-col md:flex-row">
         <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col  items-center ">
           <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
