@@ -32,8 +32,8 @@ export default function Home() {
       </div>
 
       {/* o mnie */}
-      <div className='pt-8 px-4 flex flex-col-reverse sm:flex-row xl:max-w-[70vw] xl:mx-auto'>
-      <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-w-[40vw] sm:max-h-[70vh]' />
+      <div className='pt-8 px-4 flex flex-col-reverse sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-xl'>
+        <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-h-[80vh]' />
         <div className="flex flex-col gap-1 leading-relaxed sm:pl-4 xl:max-w-[50%] xl:pl-0
         ">
           <h2 className="text-2xl">Cześć!</h2>
@@ -124,8 +124,8 @@ export default function Home() {
       </div>
 
       {/* opinie */}
-      <div className="flex gap-y-[130px] gap-4 pt-40 px-4 flex-col md:flex-row">
-        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col  items-center ">
+      <div className="flex flex-col justify-between gap-y-[130px] gap-4 pt-40 px-4 md:flex-row ">
+        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center ">
           <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
             height: "125px",
