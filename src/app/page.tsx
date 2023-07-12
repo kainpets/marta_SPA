@@ -9,13 +9,54 @@ import opinia2 from "/public/opinia2.jpg"
 import opinia3 from "/public/opinia3.jpg"
 import martaKontakt from "/public/martakontakt.jpg"
 import logo from "/public/whiteTransparentLogoHomePage.png"
-import { FacebookIcon, Instagram, Youtube, Mail, Phone } from 'lucide-react'
+import { FacebookIcon, Instagram, Youtube, Mail, Phone, Album, ClipboardCheck, PhoneOutgoing, Presentation, User2 } from 'lucide-react'
 
 export default function Home() {
   return (
     <main className="min-h-screen overflow-y-hidden ">
-      {/* landing page */}
       <div className="relative h-screen w-screen pt-16 px-4">
+        {/* nav */}
+        <nav>
+        <div className="xl:hidden">
+          {/* <MobileNav /> */}
+        </div>
+        <div className="hidden absolute right-8 xl:block xl:max-w-[70vw] lg:text-xl md:text-sm">
+          <li className='flex px-4 justify-between gap-6 text-white'>
+            <div className="hover:bg-slate-600 rounded-lg p-1 transition duration-300">
+              <a className="flex gap-2" href="#o-mnie">
+                <User2 />
+                O mnie
+              </a>
+            </div>
+            <div className="hover:bg-slate-600 rounded-lg p-1 transition duration-300">
+              <a className="flex gap-2" href="#uslugi">
+                <Presentation />
+                Usługi
+              </a>
+            </div>
+            <div className="hover:bg-slate-600 rounded-lg p-1 transition duration-300">
+              <a className="flex gap-2" href="#portfolio">
+                <Album />
+                Portfolio
+              </a>
+            </div>
+            <div className="hover:bg-slate-600 rounded-lg p-1 transition duration-300">
+              <a className="flex gap-2" href="#opinie">
+                <ClipboardCheck />
+                Opinie
+              </a>
+            </div>
+            <div className="hover:bg-slate-600 rounded-lg p-1 transition duration-300">
+              <a className="flex gap-2" href="#kontakt">
+                <PhoneOutgoing />
+                Kontakt
+              </a>
+            </div>
+          </li>
+        </div>
+      </nav>
+
+      {/* landing page */}
         <Image src={logo} alt='logo' className='absolute top-0  w-[200px] xl:ml-32' />
         <Image
           src={juliaMilosz}
@@ -32,9 +73,9 @@ export default function Home() {
       </div>
 
       {/* o mnie */}
-      <div className='pt-8 px-4 flex flex-col-reverse sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-lg'>
+      <div id="o-mnie" className='pt-8 px-4 flex flex-col-reverse sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-lg'>
         <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-h-[90vh]' />
-        <div className="flex flex-col gap-1 leading-relaxed sm:pl-4 xl:max-w-[50%] xl:pl-0
+        <div  className="flex flex-col gap-1 leading-relaxed sm:pl-4 xl:max-w-[50%] xl:pl-0
         ">
           <h2 className="text-2xl">Cześć!</h2>
           <h2 className="text-2xl">Mam na imię Marta i jestem <br />instruktorką tańca.</h2>
@@ -59,7 +100,7 @@ export default function Home() {
       </div>
 
       {/* usługi */}
-      <div style={{
+      <div id='uslugi' style={{
         display: "grid",
         gridGap: "16px",
         gridTemplateColumns: "repeat(auto-fit, minmax(300px, auto))",
@@ -107,7 +148,7 @@ export default function Home() {
       </div>
 
       {/* portfolio */}
-      <div className="pt-8 text-center px-4">
+      <div id='portfolio' className="pt-8 text-center px-4">
         {/* <h2 className='text-xl'>MOJE PORTFOLIO</h2> */}
         <h3 >Zapraszam do zapoznania się z występami moich pięknych par młodych, z których jestem <strong className="font-medium">BARDZO</strong> dumna! Więcej na moim profilu na YouTube.</h3>
         <div className="flex flex-col gap-4 pt-4 lg:flex-row">
@@ -124,7 +165,7 @@ export default function Home() {
       </div>
 
       {/* opinie */}
-      <div className="flex flex-col justify-around gap-y-[130px] gap-4 pt-40 px-4 md:flex-row ">
+      <div id='opinie' className="flex flex-col justify-around gap-y-[130px] gap-4 pt-40 px-4 md:flex-row ">
         <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center ">
           <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
@@ -196,7 +237,7 @@ export default function Home() {
               className='px-4 object-scale-down sm:max-h-[80vh]' />
           </div>
           <div className='pt-8 px-4 text-xl'>
-            <h2 className="text-3xl text-center">KONTAKT</h2>
+            <h2 id='kontakt' className="text-3xl text-center">KONTAKT</h2>
             <ul className="font-medium mt-4 flex flex-col gap-6 md:text-xl">
               <li className="flex flex-row gap-2">
                 <FacebookIcon color="#030099" />
