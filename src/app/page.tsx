@@ -183,7 +183,7 @@ export default function Home() {
           </p>
           <h3 className="text-center text-xl">KAROLINA I KRIS</h3>
         </div>
-        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col justify-between">
+        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed items-center flex flex-col justify-between">
           <Image src={opinia2} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
             height: "125px",
