@@ -237,27 +237,27 @@ export default function Home() {
               alt="Uśmiechnięta Marta czeka na kontakt"
               className='px-4 object-scale-down sm:max-h-[80vh]' />
           </div>
-          <div className='pt-8 px-4 text-xl'>
+          <div className='pt-8 px-4 '>
             <h2 id='kontakt' className="text-3xl text-center">KONTAKT</h2>
-            <ul className="font-medium mt-4 flex flex-col gap-6 md:text-xl">
+            <ul className="mt-8 flex flex-col gap-6 md:text-xl xl:gap-10 xl:text-2xl">
               <li className="flex flex-row gap-2">
-                <FacebookIcon color="#030099" />
+                <FacebookIcon size="30px" color="#030099" />
                 <a href="https://www.facebook.com/martaklisowskapierwszytaniec" target="_blank">@martaklisowskapierwszytaniec</a>
               </li>
               <li className="flex flex-row gap-2">
-                <Instagram color="#d45125" />
+                <Instagram size="30px" color="#d45125" />
                 <a href="https://www.instagram.com/pierwszytaniecpoznan/" target="_blank">@pierwszytaniecpoznan</a>
               </li>
               <li className="flex flex-row gap-2">
-                <Youtube color="#c70d00" />
+                <Youtube size="30px" color="#c70d00" />
                 <a href="https://www.youtube.com/@martaklisowska2017" target="_blank">@martaklisowska2017</a>
               </li>
               <li className="flex flex-row gap-2">
-                <Mail />
+                <Mail size="30px" />
                 <a href="mailto:klisowska.marta@gmail.com?subject=Pytanie&body=Interesują mnie zajęcia" target="_blank">@klisowska.marta@gmail.com</a>
               </li>
               <li className="flex flex-row gap-2">
-                <Phone />
+                <Phone size="30px"/>
                 <a href="tel:793792883">+48 793 792 883</a>
               </li>
             </ul>
