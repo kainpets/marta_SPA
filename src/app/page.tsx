@@ -10,6 +10,7 @@ import opinia3 from "/public/opinia3.jpg"
 import martaKontakt from "/public/martakontakt.jpg"
 import logo from "/public/whiteTransparentLogoHomePage.png"
 import { FacebookIcon, Instagram, Youtube, Mail, Phone, Album, ClipboardCheck, PhoneOutgoing, Presentation, User2 } from 'lucide-react'
+import MobileNav from './components/MobileNav'
 
 export default function Home() {
   return (
@@ -17,8 +18,8 @@ export default function Home() {
       <div className="relative h-screen w-screen pt-16 px-4">
         {/* nav */}
         <nav>
-        <div className="xl:hidden">
-          {/* <MobileNav /> */}
+        <div className="absolute top-8 right-16 text-white xl:hidden">
+          <MobileNav />
         </div>
         <div className="hidden absolute right-8 xl:block xl:max-w-[70vw] lg:text-xl md:text-sm">
           <li className='flex px-4 justify-between gap-6 text-white'>
@@ -66,7 +67,7 @@ export default function Home() {
           placeholder='blur'
           priority={true}
           className='absolute z-[-1] object-cover h-full w-full top-0' />
-        <div className="pl-4 flex flex-col max-w-sm text-white pt-32 xl:pl-32">
+        <div className="pl-4 flex flex-col max-w-sm text-white pt-[12rem] xl:pl-32">
           <h1 className="text-7xl leading-tight font-black">Pierwszy Taniec Poznań</h1>
           <h5 className="text-3xl leading-snug">ABY&nbsp;PIERWSZY&nbsp;TANIEC BYŁ&nbsp;DLA&nbsp;WAS&nbsp;PRZYGODĄ</h5>
         </div>
