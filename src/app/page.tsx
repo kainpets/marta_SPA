@@ -117,7 +117,7 @@ export default function Home() {
             height: "70%"
           }} />
           <div className="pt-4">
-            <h2 className="text-center text-xl pb-1">WARSZTATY TANECZNE</h2>
+            <h2 className="text-center text-2xl pb-1">WARSZTATY TANECZNE</h2>
             <p >Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania. </p>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function Home() {
             height: "70%"
           }} />
           <div className="pt-4">
-            <h2 className="text-center text-xl pb-1">PIERWSZY TANIEC</h2>
+            <h2 className="text-center text-2xl pb-1">PIERWSZY TANIEC</h2>
             <p >Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii. </p>
           </div>
         </div>
@@ -139,7 +139,7 @@ export default function Home() {
             height: "70%"
           }} />
           <div className="pt-4">
-            <h2 className="text-center text-xl pb-1">TANIEC DLA KOBIET</h2>
+            <h2 className="text-center text-2xl pb-1">TANIEC DLA KOBIET</h2>
             <p >Zajęcia pełne kobiecości, na których każda z Was może poczuć się jak gwiazda Broadway&apos;u. Prowadzę zajęcia grupowe i indywidualne. Realizuję też tańce na wieczorach panieńskich.</p>
           </div>
         </div>
