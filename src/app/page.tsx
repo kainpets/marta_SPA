@@ -166,8 +166,8 @@ export default function Home() {
       </div>
 
       {/* opinie */}
-      <div id='opinie' className="flex flex-col justify-around gap-y-[130px] gap-4 pt-40 px-4 md:flex-row ">
-        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center ">
+      <div id='opinie' className="flex flex-col justify-around gap-y-[130px] gap-4 pt-40 px-4 md:flex-row xl:max-w-[70vw] xl:mx-auto">
+        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center justify-between">
           <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
             height: "125px",
@@ -183,7 +183,7 @@ export default function Home() {
           </p>
           <h3 className="text-center text-xl">KAROLINA I KRIS</h3>
         </div>
-        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col justify-around">
+        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col justify-between">
           <Image src={opinia2} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
             height: "125px",
@@ -200,7 +200,7 @@ export default function Home() {
           </p>
           <h3 className="text-center text-xl">OLIWIA I ARTUR</h3>
         </div>
-        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center ">
+        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center justify-between">
           <Image src={opinia3} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
             height: "125px",
@@ -237,8 +237,8 @@ export default function Home() {
               alt="Uśmiechnięta Marta czeka na kontakt"
               className='px-4 object-scale-down sm:max-h-[80vh]' />
           </div>
-          <div className='pt-8 px-4 '>
-            <h2 id='kontakt' className="text-3xl text-center">KONTAKT</h2>
+          <div className='pt-8 px-4'>
+            <h2 id='kontakt' className="text-4xl text-center">KONTAKT</h2>
             <ul className="mt-8 flex flex-col gap-6 md:text-xl xl:gap-10 xl:text-2xl">
               <li className="flex flex-row gap-2">
                 <FacebookIcon size="30px" color="#030099" />
