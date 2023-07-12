@@ -32,8 +32,8 @@ export default function Home() {
       </div>
 
       {/* o mnie */}
-      <div className='pt-8 px-4 flex flex-col-reverse sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-xl'>
-        <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-h-[80vh]' />
+      <div className='pt-8 px-4 flex flex-col-reverse sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-lg'>
+        <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-h-[90vh]' />
         <div className="flex flex-col gap-1 leading-relaxed sm:pl-4 xl:max-w-[50%] xl:pl-0
         ">
           <h2 className="text-2xl">Cześć!</h2>
@@ -62,13 +62,13 @@ export default function Home() {
       <div style={{
         display: "grid",
         gridGap: "16px",
-        gridTemplateColumns: "repeat(auto-fit, minmax(250px, auto))",
+        gridTemplateColumns: "repeat(auto-fit, minmax(300px, auto))",
         paddingTop: "4rem",
         alignItems: "baseline",
         paddingRight: "1rem",
         paddingLeft: "1rem",
       }}>
-        <div style={{ position: "relative", height: "625px" }}>
+        <div style={{ position: "relative", height: "100vh" }}>
           <Image src={martanogadogory} alt="Marta tańczy z nogą uniesioną do góry" className="shadow" placeholder="blur" sizes="100vw" style={{
             objectFit: "cover",
             width: "100%",
@@ -76,10 +76,10 @@ export default function Home() {
           }} />
           <div className="pt-4">
             <h2 className="text-center text-xl pb-1">WARSZTATY TANECZNE</h2>
-            <p className="">Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania. </p>
+            <p >Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania. </p>
           </div>
         </div>
-        <div style={{ position: "relative", height: "625px" }}>
+        <div style={{ position: "relative", height: "100vh" }}>
           <Image src={martaradzi} alt="Para tańczy na pierwszym planie, Marta doradza w tle" className="shadow" placeholder="blur" sizes="100vw" style={{
             objectFit: "cover",
             width: "100%",
@@ -87,10 +87,10 @@ export default function Home() {
           }} />
           <div className="pt-4">
             <h2 className="text-center text-xl pb-1">PIERWSZY TANIEC</h2>
-            <p className="">Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii. </p>
+            <p >Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii. </p>
           </div>
         </div>
-        <div style={{ position: "relative", height: "625px" }}>
+        <div style={{ position: "relative", height: "100vh" }}>
           <Image src={martalabedz} alt="Marta tańczy we wdzięcznej pozie" className="shadow" placeholder="blur" sizes="100vw" style={{
             objectFit: "cover",
             width: "100%",
@@ -98,7 +98,7 @@ export default function Home() {
           }} />
           <div className="pt-4">
             <h2 className="text-center text-xl pb-1">TANIEC DLA KOBIET</h2>
-            <p className="">Zajęcia pełne kobiecości, na których każda z Was może poczuć się jak gwiazda Broadway&apos;u. Prowadzę zajęcia grupowe i indywidualne. Realizuję też tańce na wieczorach panieńskich.</p>
+            <p >Zajęcia pełne kobiecości, na których każda z Was może poczuć się jak gwiazda Broadway&apos;u. Prowadzę zajęcia grupowe i indywidualne. Realizuję też tańce na wieczorach panieńskich.</p>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ export default function Home() {
       </div>
 
       {/* opinie */}
-      <div className="flex flex-col justify-between gap-y-[130px] gap-4 pt-40 px-4 md:flex-row ">
+      <div className="flex flex-col justify-around gap-y-[130px] gap-4 pt-40 px-4 md:flex-row ">
         <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center ">
           <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
@@ -136,12 +136,12 @@ export default function Home() {
             position: "absolute",
             top: "-100px"
           }} />
-          <p className="">
+          <p >
             Długo myślałam co napisać, ponieważ nasz pierwszy taniec który Marta dla nas stworzyła był wyjątkowy, ponadto zrobił dużą furorę wśród gości! Goście mówili: „tak pięknego tańca jeszcze nie widzieliśmy”,  „trudno będzie go pobić innym tańcem”. Dodatkowo czas z Martą jest cudowny. Dziewczyna pełna energii, chcąca sprostać najcięższym wyzwaniom! Tak jak nasze, gdy mając już cały przygotowany taniec postanowiliśmy zmienić piosenkę!!! Co na to Marta?! Od razu podłapała temat i od razu zaczęła działać!!! I cała choreografia przerosła nasze oczekiwania!!! Marta jest bardzo pozytywną osobą i nie ważne jak byliśmy zmęczeni na zajęcia z Martą szliśmy chętnie, a wychodziliśmy z ogromnym uśmiechem!!! Jeśli ktoś się zastanawia jeszcze nad wyborem osoby, która poprowadzi Wasz pierwszy taniec, to naprawdę polecam Martę, która robi to z pasją!!!
           </p>
           <h3 className="text-center text-xl">KAROLINA I KRIS</h3>
         </div>
-        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col  items-center ">
+        <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col justify-around">
           <Image src={opinia2} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
             height: "125px",
@@ -185,7 +185,7 @@ export default function Home() {
         </a>
       </div>
       {/* kontakt */}
-      <div className="sm:flex gap-16 mt-16 pb-16 sm:px-4" >
+      <div className="sm:flex gap-16 mt-16 pb-16 sm:px-4 xl:max-w-[70vw] xl:mx-auto" >
         <div className='flex flex-col sm:flex-row-reverse'>
           <div >
             <Image
@@ -193,7 +193,7 @@ export default function Home() {
               placeholder="blur"
               sizes='100vw'
               alt="Uśmiechnięta Marta czeka na kontakt"
-              className='px-4 sm:block sm:object-scale-down shadow-lg' />
+              className='px-4 object-scale-down sm:max-h-[80vh]' />
           </div>
           <div className='pt-8 px-4 text-xl'>
             <h2 className="text-3xl text-center">KONTAKT</h2>
