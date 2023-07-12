@@ -101,7 +101,7 @@ export default function Home() {
       </div>
 
       {/* usługi */}
-      <div id='uslugi' style={{
+      <div id='uslugi' className='xl:max-w-[70vw] xl:mx-auto' style={{
         display: "grid",
         gridGap: "16px",
         gridTemplateColumns: "repeat(auto-fit, minmax(300px, auto))",
@@ -149,7 +149,7 @@ export default function Home() {
       </div>
 
       {/* portfolio */}
-      <div id='portfolio' className="pt-8 text-center px-4">
+      <div id='portfolio' className="pt-8 text-center px-4 2xl:max-w-[80vw] xl:mx-auto">
         {/* <h2 className='text-xl'>MOJE PORTFOLIO</h2> */}
         <h3 >Zapraszam do zapoznania się z występami moich pięknych par młodych, z których jestem <strong className="font-medium">BARDZO</strong> dumna! Więcej na moim profilu na YouTube.</h3>
         <div className="flex flex-col gap-4 pt-4 lg:flex-row">
@@ -166,7 +166,7 @@ export default function Home() {
       </div>
 
       {/* opinie */}
-      <div id='opinie' className="flex flex-col justify-around gap-y-[130px] gap-4 pt-40 px-4 md:flex-row xl:max-w-[70vw] xl:mx-auto">
+      <div id='opinie' className="flex flex-col justify-around gap-y-[130px] gap-4 pt-40 px-4 md:flex-row xl:max-w-[70vw] xl:mx-auto ">
         <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center justify-between">
           <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
