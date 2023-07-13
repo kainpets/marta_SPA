@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl">
+      <head>
+        <link rel='icon' href='/favicon-32x32.png'></link>
+      </head>
       <body className={`${poppins.className} bg-[#d1d3d5] overflow-x-hidden`}>{children}</body>
     </html>
   )
