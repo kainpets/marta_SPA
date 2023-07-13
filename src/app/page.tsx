@@ -74,9 +74,9 @@ export default function Home() {
       </div>
 
       {/* o mnie */}
-      <div id="o-mnie" className='pt-8 px-4 flex flex-col-reverse sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-lg'>
+      <div id="o-mnie" className='pt-8 px-4 flex flex-col-reverse gap-4 sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-lg'>
         <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-h-[90vh]' />
-        <div  className="flex flex-col gap-1 leading-relaxed sm:pl-4 xl:max-w-[50%] xl:pl-0
+        <div  className="flex flex-col gap-1 leading-relaxed xl:max-w-[50%] 
         ">
           <h2 className="text-2xl">Cześć!</h2>
           <h2 className="text-2xl">Mam na imię Marta i jestem <br />instruktorką tańca.</h2>
