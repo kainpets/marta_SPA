@@ -74,7 +74,7 @@ export default function Home() {
       </div>
 
       {/* o mnie */}
-      <div id="o-mnie" className='pt-8 px-4 flex flex-col-reverse gap-4 sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-lg'>
+      <div id="o-mnie" className='pt-32 px-4 flex flex-col-reverse gap-4 sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-lg'>
         <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-h-[90vh]' />
         <div  className="flex flex-col gap-1 leading-relaxed xl:max-w-[50%] 
         ">
@@ -105,12 +105,12 @@ export default function Home() {
         display: "grid",
         gridGap: "16px",
         gridTemplateColumns: "repeat(auto-fit, minmax(300px, auto))",
-        paddingTop: "4rem",
+        paddingTop: "8rem",
         alignItems: "baseline",
         paddingRight: "1rem",
         paddingLeft: "1rem",
       }}>
-        <div style={{ position: "relative", height: "100vh" }}>
+        <div style={{ position: "relative", height: "80vh" }}>
           <Image src={martanogadogory} alt="Marta tańczy z nogą uniesioną do góry" className="shadow" placeholder="blur" sizes="100vw" style={{
             objectFit: "cover",
             width: "100%",
@@ -121,7 +121,7 @@ export default function Home() {
             <p >Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania. </p>
           </div>
         </div>
-        <div style={{ position: "relative", height: "100vh" }}>
+        <div style={{ position: "relative", height: "80vh" }}>
           <Image src={martaradzi} alt="Para tańczy na pierwszym planie, Marta doradza w tle" className="shadow" placeholder="blur" sizes="100vw" style={{
             objectFit: "cover",
             width: "100%",
@@ -132,7 +132,7 @@ export default function Home() {
             <p >Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii. </p>
           </div>
         </div>
-        <div style={{ position: "relative", height: "100vh" }}>
+        <div style={{ position: "relative", height: "80vh" }}>
           <Image src={martalabedz} alt="Marta tańczy we wdzięcznej pozie" className="shadow" placeholder="blur" sizes="100vw" style={{
             objectFit: "cover",
             width: "100%",
@@ -149,7 +149,7 @@ export default function Home() {
       </div>
 
       {/* portfolio */}
-      <div id='portfolio' className="pt-8 text-center px-4 2xl:max-w-[80vw] xl:mx-auto">
+      <div id='portfolio' className="pt-32 text-center px-4 2xl:max-w-[80vw] xl:mx-auto">
         {/* <h2 className='text-xl'>MOJE PORTFOLIO</h2> */}
         <h3 >Zapraszam do zapoznania się z występami moich pięknych par młodych, z których jestem <strong className="font-medium">BARDZO</strong> dumna! Więcej na moim profilu na YouTube.</h3>
         <div className="flex flex-col gap-4 pt-4 lg:flex-row">
@@ -159,14 +159,14 @@ export default function Home() {
         </div>
         <div className="mx-auto text-center pt-8">
           <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">
-            <button className="p-4 font-bold text-xl bg-green-400 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
+            <button className="p-4 font-bold text-xl bg-green-600 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
             </button>
           </a>
         </div>
       </div>
 
       {/* opinie */}
-      <div id='opinie' className="flex flex-col justify-around gap-y-[130px] gap-4 pt-40 px-4 md:flex-row xl:max-w-[70vw] xl:mx-auto ">
+      <div id='opinie' className="flex flex-col justify-around gap-y-[130px] gap-4 pt-60 px-4 md:flex-row xl:max-w-[70vw] xl:mx-auto ">
         <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center justify-between">
           <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
             objectFit: "cover",
@@ -222,12 +222,12 @@ export default function Home() {
       </div>
       <div className="mx-auto text-center pt-8">
         <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">
-          <button className="p-4 font-bold text-xl bg-green-400 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
+          <button className="p-4 font-bold text-xl bg-green-600 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
           </button>
         </a>
       </div>
       {/* kontakt */}
-      <div className="sm:flex gap-16 mt-16 pb-16 sm:px-4 xl:max-w-[70vw] xl:mx-auto" >
+      <div className="sm:flex gap-16 mt-32 pb-16 sm:px-4 xl:max-w-[70vw] xl:mx-auto" >
         <div className='flex flex-col sm:flex-row-reverse'>
           <div >
             <Image
