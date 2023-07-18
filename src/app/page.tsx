@@ -67,7 +67,7 @@ export default function Home() {
           placeholder='blur'
           priority={true}
           className='absolute z-[-1] object-cover h-full w-full top-0' />
-        <div className="pl-4 flex flex-col max-w-sm text-white pt-[12rem] xl:pl-32">
+        <div className="sm:pl-4 flex flex-col max-w-sm text-white pt-[12rem] xl:pl-32">
           <h1 className="text-7xl leading-tight font-black">Pierwszy Taniec Poznań</h1>
           <p className="text-3xl leading-snug">ABY&nbsp;PIERWSZY&nbsp;TANIEC BYŁ&nbsp;DLA&nbsp;WAS&nbsp;PRZYGODĄ</p>
         </div>
@@ -233,7 +233,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mx-auto text-center pt-8">
-          <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">
+          <a target="_blank" href="https://www.facebook.com/martaklisowskapierwszytaniec/reviews">
             <button className="p-4 font-bold text-xl bg-green-600 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
             </button>
           </a>
