@@ -75,7 +75,7 @@ export default function Home() {
 
       {/* o mnie */}
       <div>
-        <h2 id="o-mnie" className='pt-16 text-center text-3xl'>O Mnie</h2>
+        <h2 id="o-mnie" className='py-16 uppercase text-center text-3xl font-bold'>O Mnie</h2>
         <div className='pt-4 px-4 flex flex-col-reverse gap-4 sm:flex-row xl:max-w-[70vw] xl:mx-auto xl:text-lg'>
           <Image src={martaKciuki} sizes='100vw' placeholder="blur" alt="Uśmiechnięta Marta z dwoma kciukami w górze" className='object-scale-down sm:max-h-[90vh]' />
           <div className="flex flex-col gap-1 leading-relaxed xl:max-w-[50%] 
@@ -105,7 +105,7 @@ export default function Home() {
 
       {/* usługi */}
       <div>
-        <h2 id='uslugi' className='pt-16 text-center text-3xl'>Usługi</h2>
+        <h2 id='uslugi' className='py-16 uppercase text-center text-3xl font-bold'>Usługi</h2>
         <div className='xl:max-w-[70vw] xl:mx-auto' style={{
           display: "grid",
           gridGap: "16px",
@@ -149,14 +149,16 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="marginx-auto w-full text-center pb-2">
-          <h3 className="text-xl">Chcesz dowiedzieć się więcej? <a href='tel:793 792 883' className="font-bold">Zadzwoń!</a></h3>
+        <div className="pt-16 sm:py-0 w-full text-center pb-2">
+          <h3 className="text-2xl font-bold">Chcesz dowiedzieć się więcej? </h3>
+          <br />
+          <a href='tel:793 792 883' className="font-bold uppercase text-xl p-4 bg-green-600 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">Zadzwoń!</a>
         </div>
       </div>
 
       {/* portfolio */}
       <div>
-        <h2 id='portfolio' className='pt-16 text-center text-3xl'>Portfolio</h2>
+        <h2 id='portfolio' className='py-16 uppercase text-center text-3xl font-bold'>Portfolio</h2>
         <div className="pt-4 text-center px-4 2xl:max-w-[80vw] xl:mx-auto">
           {/* <h2 className='text-xl'>MOJE PORTFOLIO</h2> */}
           <h3 >Zapraszam do zapoznania się z występami moich pięknych par młodych, z których jestem <strong className="font-medium">BARDZO</strong> dumna! Więcej na moim profilu na YouTube.</h3>
@@ -176,7 +178,7 @@ export default function Home() {
 
       {/* opinie */}
       <div>
-        <h2 id='opinie' className='pt-16 text-center text-3xl'>Opinie</h2>
+        <h2 id='opinie' className='py-16 uppercase text-center text-3xl font-bold'>Opinie</h2>
 
         <div className="flex flex-col justify-around gap-y-[130px] gap-4 pt-40 px-4 md:flex-row xl:max-w-[70vw] xl:mx-auto ">
           <div className="relative bg-white rounded shadow py-6 px-12 leading-relaxed flex flex-col items-center justify-between">
@@ -252,7 +254,7 @@ export default function Home() {
               className='px-4 object-scale-down sm:max-h-[80vh]' />
           </div>
           <div className='pt-8 px-4'>
-            <h2 id='kontakt' className="text-4xl text-center">KONTAKT</h2>
+            <h2 id='kontakt' className="text-4xl py-16 text-center font-bold">KONTAKT</h2>
             <ul className="mt-8 flex flex-col gap-6 md:text-xl xl:gap-10 xl:text-2xl">
               <li className="flex flex-row gap-2">
                 <FacebookIcon size="30px" color="#030099" />
