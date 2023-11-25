@@ -30,9 +30,9 @@ export default function Home() {
                 </a>
               </div>
               <div className="hover:bg-slate-600 rounded-lg p-1 transition duration-300">
-                <a className="flex gap-2" href="#uslugi">
+                <a className="flex gap-2" href="#oferta">
                   <Presentation />
-                  Usługi
+                  Oferta
                 </a>
               </div>
               <div className="hover:bg-slate-600 rounded-lg p-1 transition duration-300">
@@ -103,9 +103,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* usługi */}
+      {/* oferta */}
       <div>
-        <h2 id='uslugi' className='py-16 uppercase text-center text-4xl font-bold'>Usługi</h2>
+        <h2 id='oferta' className='py-16 uppercase text-center text-4xl font-bold'>Oferta</h2>
         <div className='xl:max-w-[70vw] xl:mx-auto' style={{
           display: "grid",
           gridGap: "16px",
@@ -122,8 +122,10 @@ export default function Home() {
               height: "70%"
             }} />
             <div className="pt-4">
-              <h2 className="text-center text-2xl pb-1">WARSZTATY TANECZNE</h2>
-              <p >Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania. </p>
+              <h2 className="text-center text-2xl pb-1">ZAJĘCIA GRUPOWE</h2>
+              <p>Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania.</p>
+              <br></br>
+              <p className='text-xs italic text-slate-500'> Oferta cenowa zależna od kursu, kursy dostępne na instagramie i facebooku</p>
             </div>
           </div>
           <div style={{ position: "relative", height: "80vh" }}>
@@ -134,7 +136,9 @@ export default function Home() {
             }} />
             <div className="pt-4">
               <h2 className="text-center text-2xl pb-1">PIERWSZY TANIEC</h2>
-              <p >Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii. </p>
+              <p >Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii.</p>
+              <br></br>
+              <p className='text-xs italic text-slate-500 text-center'>  Koszt - 150zł/godzina/para</p>
             </div>
           </div>
           <div style={{ position: "relative", height: "80vh" }}>
@@ -146,6 +150,8 @@ export default function Home() {
             <div className="pt-4">
               <h2 className="text-center text-2xl pb-1">TANIEC DLA KOBIET</h2>
               <p >Zajęcia pełne kobiecości, na których każda z Was może poczuć się jak gwiazda Broadway&apos;u. Prowadzę zajęcia grupowe i indywidualne. Realizuję też tańce na wieczorach panieńskich.</p>
+              <br></br>
+              <p className='text-xs italic text-slate-500 text-center'>  Cena ustalana indywidualnie</p>
             </div>
           </div>
         </div>
@@ -170,7 +176,7 @@ export default function Home() {
             <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/LqvE-7Xv5fE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
           <div className="mx-auto text-center pt-8">
-            <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">
+            <a target="_blank" href="https://www.youtube.com/@pierwszytaniecpoznan">
               <button className="p-4 font-bold text-xl bg-green-600 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
               </button>
             </a>
