@@ -30,10 +30,10 @@ function MobileNav() {
                       O mnie
                     </NavigationMenuLink>
                   </a>
-                  <Link href="#uslugi">
+                  <Link href="#oferta">
                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                       <Presentation />
-                      Usługi
+                      Oferta
                     </NavigationMenuLink>
                   </Link>
                   <Link href="#portfolio">
