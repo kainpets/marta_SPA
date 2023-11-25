@@ -274,11 +274,11 @@ export default function Home() {
               </li>
               <li className="flex flex-row gap-2">
                 <Youtube size="30px" color="#c70d00" />
-                <a href="https://www.youtube.com/@martaklisowska2017" target="_blank">@martaklisowska2017</a>
+                <a href="https://www.youtube.com/@pierwszytaniecpoznan" target="_blank">@pierwszytaniecpoznan</a>
               </li>
               <li className="flex flex-row gap-2">
                 <Mail size="30px" />
-                <a href="mailto:klisowska.marta@gmail.com?subject=Pytanie&body=Interesują mnie zajęcia" target="_blank">@klisowska.marta@gmail.com</a>
+                <a href="mailto:klisowska.marta@gmail.com?subject=Pytanie&body=Chcę się zapisać na zajęcia" target="_blank">@klisowska.marta@gmail.com</a>
               </li>
               <li className="flex flex-row gap-2">
                 <Phone size="30px" />
