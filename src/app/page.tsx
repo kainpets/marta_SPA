@@ -138,7 +138,6 @@ export default function Home() {
               <h2 className="text-center text-2xl pb-1">PIERWSZY TANIEC</h2>
               <p >Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii.</p>
               <br></br>
-              <p className='text-xs italic text-slate-500 text-center'>  Koszt - 150zł/godzina/para</p>
             </div>
           </div>
           <div style={{ position: "relative", height: "80vh" }}>
